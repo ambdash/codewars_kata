@@ -1,0 +1,17 @@
+#7kye #fundamentals
+...
+Programme:
+
+#1
+  def to_jaden_case(string):
+    string = string.split(' ')
+    phrase = []
+    for item in string:
+        item = item.capitalize()
+        phrase.append(item)
+    return ' '.join(phrase)
+
+#2
+  def toJadenCase(string):        
+    return " ".join(w.capitalize() for w in string.split())
+ ...
